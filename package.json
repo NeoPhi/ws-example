@@ -1,0 +1,36 @@
+{
+  "name": "ws-example",
+  "version": "0.1.0",
+  "description": "WebSocket Example",
+  "homepage": "https://github.com/NeoPhi/ws-example",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/NeoPhi/ws-example/raw/master/LICENSE"
+  }],
+  "author": {
+    "name": "Daniel Rinehart",
+    "email": "danielr@neophi.com",
+    "url": "http://danielr.neophi.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeoPhi/ws-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NeoPhi/ws-example/issues"
+  },  
+  "private": true,
+  "main": "./src/index.js",
+  "dependencies": {
+    "connect": "2.4.2",
+    "ws": "0.4.21"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
