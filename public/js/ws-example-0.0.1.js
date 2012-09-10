@@ -10,7 +10,7 @@ var createWebSocketHandler = function(callback) {
 
   var webSocket;
   try {
-    webSocket = new WebSocket("ws://localhost:8080/");
+    webSocket = new WebSocket('ws://' + document.location.host + '/message');
   } catch(err) {
     addMessage('WebSocket Creation Failed', err);
     return undefined;
